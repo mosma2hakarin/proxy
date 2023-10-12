@@ -5,7 +5,7 @@ const proxy = httpProxy.createProxyServer({});
 
 const server = http.createServer(function (req, res) {
   proxy.web(req, res, {
-    target: '78.46.39.20:10579',
+    target: '149.18.63.85:30120',
   });
 });
 
